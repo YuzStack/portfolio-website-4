@@ -23,7 +23,7 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
     >
       <body className='min-h-full'>
         <ResponsiveHeader />
-        <main>{children}</main>
+        <main className='overflow-hidden'>{children}</main>
       </body>
     </html>
   );

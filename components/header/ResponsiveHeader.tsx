@@ -11,9 +11,9 @@ export default function ResponsiveHeader() {
   const closeMobileNav = () => setShowMobileNav(false);
 
   return (
-    <div>
+    <>
       <Header openMobileNavHandler={openMobileNav} />
       <MobileNav showNav={showMobileNav} closeNav={closeMobileNav} />
-    </div>
+    </>
   );
 }
