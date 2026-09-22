@@ -1,3 +1,3 @@
 export default function Home() {
-  return <div className='overflow-hidden'>HOME</div>;
+  return <div className='overflow-hidden'></div>;
 }

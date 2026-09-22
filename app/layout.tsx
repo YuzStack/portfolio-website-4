@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import ResponsiveHeader from '@/components/header/ResponsiveHeader';
+('@/components/nav/ResponsiveHeader');
 
 const font = Inter({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -17,9 +19,12 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
   return (
     <html
       lang='en'
-      className={`${font.className} h-full bg-[#0d0d1f] antialiased`}
+      className={`${font.className} bg-primary-900 text-primary-50 h-full antialiased`}
     >
-      <body className='min-h-full'>{children}</body>
+      <body className='min-h-full'>
+        <ResponsiveHeader />
+        <main>{children}</main>
+      </body>
     </html>
   );
 }
