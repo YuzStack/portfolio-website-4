@@ -9,7 +9,7 @@ import ParticlesHero from './ParticleBackground';
 export default function Hero() {
   return (
     <section className='text-primary-50 relative flex h-screen flex-col items-center justify-center'>
-      <ParticlesHero />
+      {/* <ParticlesHero /> */}
 
       <div className='relative z-10 flex flex-col items-center'>
         <Image
