@@ -4,7 +4,7 @@ import { resumeEdus, resumeExps } from '@/constants/constants';
 export default function Resume() {
   return (
     <section className='py-20'>
-      <div className='mx-auto grid w-[90%] grid-cols-1 gap-10 sm:w-[70%] xl:grid-cols-2'>
+      <div className='mx-auto grid w-[90%] gap-10 sm:w-[70%] xl:grid-cols-2'>
         {/* WORK */}
         <div>
           <h1 className='text-primary-50 text-3xl font-bold sm:text-4xl'>

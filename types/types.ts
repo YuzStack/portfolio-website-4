@@ -38,3 +38,11 @@ export interface ClientReview {
   name: string;
   role: string;
 }
+
+export interface Blog {
+  id: number;
+  image: StaticImageData;
+  date: string;
+  title: string;
+  techStack: string[];
+}

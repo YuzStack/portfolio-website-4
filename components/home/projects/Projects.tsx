@@ -8,7 +8,7 @@ export default function Projects() {
         A small selection of recent <br />
         <span className='text-cyan-300'>projects</span>
       </h1>
-      <ul className='mx-auto mt-16 grid w-[70%] grid-cols-1 gap-10 md:grid-cols-2'>
+      <ul className='mx-auto mt-16 grid w-[70%] gap-10 md:grid-cols-2'>
         {projects.map((project) => (
           <li key={project.title}>
             <Image

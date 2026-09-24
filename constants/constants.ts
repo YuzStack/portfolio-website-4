@@ -1,4 +1,5 @@
 import {
+  Blog,
   ClientReview,
   NavLink,
   Project,
@@ -35,6 +36,10 @@ import clientImg2 from '@/public/images/c2.png';
 import clientImg3 from '@/public/images/c3.png';
 import clientImg4 from '@/public/images/c4.png';
 import clientImg5 from '@/public/images/c5.png';
+
+import blogImg1 from '@/public/images/b1.jpg';
+import blogImg2 from '@/public/images/b2.jpg';
+import blogImg3 from '@/public/images/b3.jpg';
 
 export const navLinks: NavLink[] = [
   { id: 1, url: '#', label: 'Home' },
@@ -186,5 +191,29 @@ export const clientReviews: ClientReview[] = [
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae modi repellat veniam ratione perspiciatis ut rem reprehenderit commodi officia doloribus',
     name: 'Jara Doe',
     role: 'Web Developer',
+  },
+];
+
+export const blogs: Blog[] = [
+  {
+    id: 1,
+    image: blogImg1,
+    date: '5 July 2025',
+    title: 'Learn how to build an amazing portfolio website using next js',
+    techStack: ['React', 'Next.js', 'Tailwind'],
+  },
+  {
+    id: 2,
+    image: blogImg2,
+    date: '5 July 2025',
+    title: 'Learn how to build an amazing portfolio website using next js',
+    techStack: ['React', 'Next.js', 'Tailwind'],
+  },
+  {
+    id: 3,
+    image: blogImg3,
+    date: '5 July 2025',
+    title: 'Learn how to build an amazing portfolio website using next js',
+    techStack: ['React', 'Next.js', 'Tailwind'],
   },
 ];
