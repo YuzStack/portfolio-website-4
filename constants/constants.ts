@@ -1,4 +1,11 @@
-import { NavLink, Project, ResumeExp, Service, Skill } from '@/types/types';
+import {
+  ClientReview,
+  NavLink,
+  Project,
+  ResumeExp,
+  Service,
+  Skill,
+} from '@/types/types';
 
 import serviceIcon1 from '@/public/images/s1.png';
 import serviceIcon2 from '@/public/images/s2.png';
@@ -22,6 +29,12 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from 'react-icons/si';
+
+import clientImg1 from '@/public/images/c1.png';
+import clientImg2 from '@/public/images/c2.png';
+import clientImg3 from '@/public/images/c3.png';
+import clientImg4 from '@/public/images/c4.png';
+import clientImg5 from '@/public/images/c5.png';
 
 export const navLinks: NavLink[] = [
   { id: 1, url: '#', label: 'Home' },
@@ -135,4 +148,43 @@ export const skills: Skill[] = [
   { name: 'Tailwind CSS', icon: SiTailwindcss, percentage: 95 },
   { name: 'TypeScript', icon: SiTypescript, percentage: 81 },
   { name: 'Supabase', icon: SiSupabase, percentage: 85 },
+];
+
+export const clientReviews: ClientReview[] = [
+  {
+    image: clientImg1,
+    review:
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae modi repellat veniam ratione perspiciatis ut rem reprehenderit commodi officia doloribus',
+    name: 'Jassica Doe',
+    role: 'CEO , Tech Company',
+  },
+  {
+    image: clientImg2,
+    review:
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae modi repellat veniam ratione perspiciatis ut rem reprehenderit commodi officia doloribus',
+
+    name: 'John Doe',
+    role: 'UI UX Designer',
+  },
+  {
+    image: clientImg3,
+    review:
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae modi repellat veniam ratione perspiciatis ut rem reprehenderit commodi officia doloribus',
+    name: 'Jora Doe',
+    role: 'CEO , Design Studio',
+  },
+  {
+    image: clientImg4,
+    review:
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae modi repellat veniam ratione perspiciatis ut rem reprehenderit commodi officia doloribus',
+    name: 'Janny Doe',
+    role: 'CEO , Landscape',
+  },
+  {
+    image: clientImg5,
+    review:
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae modi repellat veniam ratione perspiciatis ut rem reprehenderit commodi officia doloribus',
+    name: 'Jara Doe',
+    role: 'Web Developer',
+  },
 ];

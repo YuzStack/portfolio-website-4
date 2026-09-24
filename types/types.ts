@@ -31,3 +31,10 @@ export interface Skill {
   icon: IconType;
   percentage: number;
 }
+
+export interface ClientReview {
+  image: StaticImageData;
+  review: string;
+  name: string;
+  role: string;
+}
