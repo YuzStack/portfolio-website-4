@@ -19,3 +19,9 @@ export interface ResumeExp {
   description: string;
   date?: string;
 }
+
+export interface Project {
+  image: StaticImageData;
+  title: string;
+  contribution: string;
+}

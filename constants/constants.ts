@@ -1,12 +1,18 @@
-import { NavLink, ResumeExp, Service } from '@/types/types';
+import { NavLink, Project, ResumeExp, Service } from '@/types/types';
 
 import serviceIcon1 from '@/public/images/s1.png';
 import serviceIcon2 from '@/public/images/s2.png';
 import serviceIcon3 from '@/public/images/s3.png';
 import serviceIcon4 from '@/public/images/s4.png';
+
 import { FaCodepen, FaReact } from 'react-icons/fa';
 import { BsDatabase } from 'react-icons/bs';
 import { BiBadge } from 'react-icons/bi';
+
+import projImg1 from '@/public/images/p1.jpg';
+import projImg2 from '@/public/images/p2.jpg';
+import projImg3 from '@/public/images/p3.jpg';
+import projImg4 from '@/public/images/p4.jpg';
 
 export const navLinks: NavLink[] = [
   { id: 1, url: '#', label: 'Home' },
@@ -87,5 +93,28 @@ export const resumeEdus: ResumeExp[] = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eum laudantium sapiente cumque distinctio.',
     date: 'Jan 2016 - Dec 2019',
+  },
+];
+
+export const projects: Project[] = [
+  {
+    image: projImg1,
+    title: 'Modern Finance Dashboard UI',
+    contribution: 'Apps, UI/UX',
+  },
+  {
+    image: projImg2,
+    title: 'Portfolio Website for Creatives',
+    contribution: 'Branding, Motion',
+  },
+  {
+    image: projImg3,
+    title: 'Brand Identity for Startups',
+    contribution: 'Branding, UI/UX',
+  },
+  {
+    image: projImg4,
+    title: 'SaaS Dashboard Development',
+    contribution: 'Apps, UI/UX',
   },
 ];
