@@ -2,6 +2,7 @@ import Hero from '@/components/home/hero/Hero';
 import Projects from '@/components/home/projects/Projects';
 import Resume from '@/components/home/resume/Resume';
 import Services from '@/components/home/services/Services';
+import Skills from '@/components/home/skills/Skills';
 
 export default function HomePage() {
   return (
@@ -10,6 +11,7 @@ export default function HomePage() {
       <Services />
       <Resume />
       <Projects />
+      <Skills />
     </>
   );
 }

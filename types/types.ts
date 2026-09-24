@@ -25,3 +25,9 @@ export interface Project {
   title: string;
   contribution: string;
 }
+
+export interface Skill {
+  name: string;
+  icon: IconType;
+  percentage: number;
+}

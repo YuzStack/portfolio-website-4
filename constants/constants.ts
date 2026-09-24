@@ -1,4 +1,4 @@
-import { NavLink, Project, ResumeExp, Service } from '@/types/types';
+import { NavLink, Project, ResumeExp, Service, Skill } from '@/types/types';
 
 import serviceIcon1 from '@/public/images/s1.png';
 import serviceIcon2 from '@/public/images/s2.png';
@@ -13,6 +13,15 @@ import projImg1 from '@/public/images/p1.jpg';
 import projImg2 from '@/public/images/p2.jpg';
 import projImg3 from '@/public/images/p3.jpg';
 import projImg4 from '@/public/images/p4.jpg';
+
+import {
+  SiJavascript,
+  SiNextdotjs,
+  SiReact,
+  SiSupabase,
+  SiTailwindcss,
+  SiTypescript,
+} from 'react-icons/si';
 
 export const navLinks: NavLink[] = [
   { id: 1, url: '#', label: 'Home' },
@@ -117,4 +126,13 @@ export const projects: Project[] = [
     title: 'SaaS Dashboard Development',
     contribution: 'Apps, UI/UX',
   },
+];
+
+export const skills: Skill[] = [
+  { name: 'JavaScript', icon: SiJavascript, percentage: 90 },
+  { name: 'React', icon: SiReact, percentage: 93 },
+  { name: 'Next.js', icon: SiNextdotjs, percentage: 88 },
+  { name: 'Tailwind CSS', icon: SiTailwindcss, percentage: 95 },
+  { name: 'TypeScript', icon: SiTypescript, percentage: 81 },
+  { name: 'Supabase', icon: SiSupabase, percentage: 85 },
 ];
