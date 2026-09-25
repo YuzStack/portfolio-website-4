@@ -53,24 +53,28 @@ export const navLinks: NavLink[] = [
 
 export const services: Service[] = [
   {
+    id: 0,
     icon: serviceIcon1,
     name: 'UI and UX',
     description:
       'Designing interfaces that are intuitive, efficient, and enjoyable to use.',
   },
   {
+    id: 1,
     icon: serviceIcon2,
     name: 'Web and Mobile App',
     description:
       'Designing interfaces that are intuitive, efficient, and enjoyable to use.',
   },
   {
+    id: 2,
     icon: serviceIcon3,
     name: 'Design & Creative',
     description:
       'Designing interfaces that are intuitive, efficient, and enjoyable to use.',
   },
   {
+    id: 3,
     icon: serviceIcon4,
     name: 'Development',
     description:
@@ -125,21 +129,25 @@ export const resumeEdus: ResumeExp[] = [
 
 export const projects: Project[] = [
   {
+    id: 0,
     image: projImg1,
     title: 'Modern Finance Dashboard UI',
     contribution: 'Apps, UI/UX',
   },
   {
+    id: 1,
     image: projImg2,
     title: 'Portfolio Website for Creatives',
     contribution: 'Branding, Motion',
   },
   {
+    id: 2,
     image: projImg3,
     title: 'Brand Identity for Startups',
     contribution: 'Branding, UI/UX',
   },
   {
+    id: 3,
     image: projImg4,
     title: 'SaaS Dashboard Development',
     contribution: 'Apps, UI/UX',
@@ -147,12 +155,12 @@ export const projects: Project[] = [
 ];
 
 export const skills: Skill[] = [
-  { name: 'JavaScript', icon: SiJavascript, percentage: 90 },
-  { name: 'React', icon: SiReact, percentage: 93 },
-  { name: 'Next.js', icon: SiNextdotjs, percentage: 88 },
-  { name: 'Tailwind CSS', icon: SiTailwindcss, percentage: 95 },
-  { name: 'TypeScript', icon: SiTypescript, percentage: 81 },
-  { name: 'Supabase', icon: SiSupabase, percentage: 85 },
+  { id: 0, name: 'JavaScript', icon: SiJavascript, percentage: 90 },
+  { id: 1, name: 'React', icon: SiReact, percentage: 93 },
+  { id: 2, name: 'Next.js', icon: SiNextdotjs, percentage: 88 },
+  { id: 3, name: 'Tailwind CSS', icon: SiTailwindcss, percentage: 95 },
+  { id: 4, name: 'TypeScript', icon: SiTypescript, percentage: 81 },
+  { id: 5, name: 'Supabase', icon: SiSupabase, percentage: 85 },
 ];
 
 export const clientReviews: ClientReview[] = [
@@ -196,21 +204,21 @@ export const clientReviews: ClientReview[] = [
 
 export const blogs: Blog[] = [
   {
-    id: 1,
+    id: 0,
     image: blogImg1,
     date: '5 July 2025',
     title: 'Learn how to build an amazing portfolio website using next js',
     techStack: ['React', 'Next.js', 'Tailwind'],
   },
   {
-    id: 2,
+    id: 1,
     image: blogImg2,
     date: '5 July 2025',
     title: 'Learn how to build an amazing portfolio website using next js',
     techStack: ['React', 'Next.js', 'Tailwind'],
   },
   {
-    id: 3,
+    id: 2,
     image: blogImg3,
     date: '5 July 2025',
     title: 'Learn how to build an amazing portfolio website using next js',

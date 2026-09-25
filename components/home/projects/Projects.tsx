@@ -10,7 +10,12 @@ export default function Projects() {
       </h1>
       <ul className='mx-auto mt-16 grid w-[70%] gap-10 md:grid-cols-2'>
         {projects.map((project) => (
-          <li key={project.title}>
+          <li
+            data-aos='fade-up'
+            data-aos-anchor-placement='top-center'
+            data-aos-delay={project.id * 100}
+            key={project.id}
+          >
             <Image
               src={project.image}
               alt='Project'

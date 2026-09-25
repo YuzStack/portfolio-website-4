@@ -1,9 +1,13 @@
 import { Blog } from '@/types/types';
 import Image from 'next/image';
 
-export default function BlogCard({ image, date, title, techStack }: Blog) {
+export default function BlogCard({ id, image, date, title, techStack }: Blog) {
   return (
-    <li>
+    <li
+      data-aos='fade-right'
+      data-aos-anchor-placement='top-center'
+      data-aos-delay={id * 100}
+    >
       <Image
         src={image}
         alt='Blog image'

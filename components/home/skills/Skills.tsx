@@ -15,7 +15,12 @@ export default function Skills() {
           return (
             <li key={skill.name}>
               <Tilt scale={1.5} transitionSpeed={400}>
-                <div className='bg-primary-600 flex h-48 w-40 flex-col items-center justify-center rounded-3xl text-center shadow-lg transition-all hover:scale-105'>
+                <div
+                  data-aos='flip-right'
+                  data-aos-anchor-placement='top-center'
+                  data-aos-delay={skill.id * 100}
+                  className='bg-primary-600 flex h-48 w-40 flex-col items-center justify-center rounded-3xl text-center shadow-lg transition-all hover:scale-105'
+                >
                   <div className='mb-4 text-5xl text-gray-300'>
                     <IconComponent />
                   </div>

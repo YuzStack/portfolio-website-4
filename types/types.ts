@@ -8,6 +8,7 @@ export interface NavLink {
 }
 
 export interface Service {
+  id: number;
   icon: StaticImageData;
   name: string;
   description: string;
@@ -21,12 +22,14 @@ export interface ResumeExp {
 }
 
 export interface Project {
+  id: number;
   image: StaticImageData;
   title: string;
   contribution: string;
 }
 
 export interface Skill {
+  id: number;
   name: string;
   icon: IconType;
   percentage: number;

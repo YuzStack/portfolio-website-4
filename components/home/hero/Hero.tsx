@@ -13,6 +13,7 @@ export default function Hero() {
 
       <div className='relative z-10 flex flex-col items-center'>
         <Image
+          data-aos='fade-up'
           src={img}
           alt='Hero Image'
           width={150}
@@ -20,12 +21,20 @@ export default function Hero() {
           className='border-primary-700 rounded-full border-8'
         />
 
-        <h1 className='mt-6 text-center text-2xl font-bold tracking-wider sm:text-4xl md:text-5xl lg:text-6xl'>
+        <h1
+          data-aos='fade-up'
+          data-aos-delay='200'
+          className='mt-6 text-center text-2xl font-bold tracking-wider sm:text-4xl md:text-5xl lg:text-6xl'
+        >
           Creating web products, <br /> brands,{' '}
           <span className='text-cyan-500'> and experiences</span>
         </h1>
 
-        <h2 className='mt-5 flex items-center px-2 text-center text-sm font-medium sm:text-2xl'>
+        <h2
+          data-aos='fade-up'
+          data-aos-delay='400'
+          className='mt-5 flex items-center px-2 text-center text-sm font-medium sm:text-2xl'
+        >
           Hi! I'm Yusuf &mdash; A passionate
           <span className='font-bold text-cyan-200'>
             <TypewriterComponent
@@ -45,7 +54,11 @@ export default function Hero() {
           </span>
         </h2>
 
-        <button className='mt-6 rounded-full bg-blue-800 px-10 py-4 text-lg font-medium transition-all duration-300 hover:bg-blue-900'>
+        <button
+          data-aos='fade-up'
+          data-aos-delay='600'
+          className='mt-6 rounded-full bg-blue-800 px-10 py-4 text-lg font-medium transition-all duration-300 hover:bg-blue-900'
+        >
           <span>See my work</span>
           <BsArrowRight className='ml-2 inline-block size-5' />
         </button>

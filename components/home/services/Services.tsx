@@ -11,7 +11,8 @@ export default function Services() {
       <ul className='mx-auto mt-20 grid w-[90%] items-center gap-10 sm:w-[70%] md:grid-cols-2 xl:grid-cols-4'>
         {services.map((service) => (
           <ServiceCard
-            key={service.name}
+            key={service.id}
+            id={service.id}
             icon={service.icon}
             name={service.name}
             description={service.description}

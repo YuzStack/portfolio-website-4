@@ -68,7 +68,11 @@ export default function Contact() {
         </div>
 
         {/* FORM */}
-        <form className='bg-primary-500 space-y-6 rounded-lg p-5 md:p-10'>
+        <form
+          data-aos='zoom-in'
+          data-aos-anchor-placement='top-center'
+          className='bg-primary-500 space-y-6 rounded-lg p-5 md:p-10'
+        >
           <input
             type='text'
             placeholder='Name'
