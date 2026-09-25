@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import ResponsiveHeader from '@/components/header/ResponsiveHeader';
 import Footer from '@/components/footer/Footer';
-('@/components/nav/ResponsiveHeader');
+import ScrollToTop from '@/components/helper/ScrollToTop';
 
 const font = Inter({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -26,6 +26,7 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
         <ResponsiveHeader />
         <main className='overflow-hidden'>{children}</main>
         <Footer />
+        <ScrollToTop />
       </body>
     </html>
   );
