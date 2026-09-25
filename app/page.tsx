@@ -1,5 +1,6 @@
 import Blogs from '@/components/home/blogs/Blogs';
 import ClientReview from '@/components/home/client-review/ClientReview';
+import Contact from '@/components/home/contact/Contact';
 import Hero from '@/components/home/hero/Hero';
 import Projects from '@/components/home/projects/Projects';
 import Resume from '@/components/home/resume/Resume';
@@ -16,6 +17,7 @@ export default function HomePage() {
       <Skills />
       <ClientReview />
       <Blogs />
+      <Contact />
     </>
   );
 }
