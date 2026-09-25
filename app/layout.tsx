@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import ResponsiveHeader from '@/components/header/ResponsiveHeader';
+import Footer from '@/components/footer/Footer';
 ('@/components/nav/ResponsiveHeader');
 
 const font = Inter({
@@ -24,6 +25,7 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
       <body className='min-h-full'>
         <ResponsiveHeader />
         <main className='overflow-hidden'>{children}</main>
+        <Footer />
       </body>
     </html>
   );
