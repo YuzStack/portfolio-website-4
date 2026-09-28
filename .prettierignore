@@ -1,4 +1,4 @@
-# Ignore absolutely everything in this project
+# Ignore absolutely everything in these directories
 node_modules
 build
 dist
